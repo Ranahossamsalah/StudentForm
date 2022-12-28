@@ -1,0 +1,104 @@
+/* global */
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  box-sizing: content-box;
+}
+.bg {
+  background-color: rgb(223, 215, 206);
+  background-size: cover;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-top: 120px;
+  padding-top: 100px;
+  border: 0.5px solid black;
+  background-image: url("./photos/cover.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+button {
+  width: 150px;
+  height: 40px;
+}
+input {
+  width: 280px;
+  height: 40px;
+}
+/* section1 */
+
+#headline {
+  background-color: rgb(147, 36, 36, 0.7);
+  height: 40px;
+  padding-top: 10px;
+  color: aliceblue;
+  font-size: 28px;
+}
+.search {
+  display: flex;
+  justify-content: center;
+}
+#searchinput {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  /* border-radius: 20px; */
+  font-size: 12px;
+  text-align: center;
+  border: 0.1px solid black;
+}
+
+/* section2 */
+.formContainer {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.search,
+.prompt {
+  padding: 20px;
+  width: 80%;
+  margin: auto;
+}
+
+.btnprompt {
+  width: 100%;
+  border-radius: 10px;
+  text-align: center;
+  height: 50px;
+  font-size: 14px;
+  padding-top: 5px;
+  border: none;
+  border: 0.1px solid black;
+}
+.btnprompt:hover,
+.btnOk:hover {
+  border: 0.2px solid black;
+  color: rgb(255, 255, 255);
+  background-color: rgb(115, 115, 115);
+  transition: all 0.3s ease-in-out;
+}
+
+.newattr {
+  width: 100%;
+  margin-top: 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  text-align: center;
+  height: 50px;
+  font-size: 25px;
+  padding-top: 5px;
+}
+
+.btnOk {
+  border: 0.1px solid black;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
